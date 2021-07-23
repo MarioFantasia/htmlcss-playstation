@@ -165,7 +165,7 @@ html, body {
 
 /* sezione play4 */
 .play4 {
-    margin-top: 40px;
+    margin: 40px 0;
 }
 
 .box_play4 {
@@ -176,5 +176,23 @@ html, body {
     width: 100%;
 }
 /* /sezione play4 */
+
+/* sezione playplus */
+.play_plus {
+    background-color: #bebcbb;
+}
+
+.play_plus_left {
+    padding: 20px;
+}
+
+.play_plus_left img {
+    width: 80%;
+}
+
+.play_plus_right img {
+    width: 100%;
+}
+/* /sezione playplus */
 
 /* /main */
