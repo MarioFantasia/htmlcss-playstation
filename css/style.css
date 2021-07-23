@@ -128,7 +128,30 @@ html, body {
 .item_play5 img {
     width: 100%;
 }
-
 /* /sezione play5 */
+
+/* sezione nuove uscite */
+/* sezione new exit top */
+.new_exit_top {
+    height: 675px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: top center;
+    padding: 100px 0 20px 20px;
+}
+
+.new_exit_top_img {
+    width: 100%;
+}
+/* /sezione new exit top */
+
+/* sezione new exit bottom */
+.box_new_exit {
+    padding: 10px;
+}
+.box_new_exit_img img {
+    width: 100%;
+}
+/* /sezione new exit bottom */
+/* /sezione nuove uscite */
 
 /* /main */
