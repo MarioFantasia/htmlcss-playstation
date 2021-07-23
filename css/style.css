@@ -210,7 +210,7 @@ html, body {
 }
 /* /sezione play store */
 
-/* play now */
+/* sezione play now */
 .play_now {
     margin-bottom: 50px;
     background-color: #161c3b;
@@ -228,6 +228,14 @@ html, body {
 .play_now_right img {
     width: 100%;
 }
-/* /play now */
+/* /sezione play now */
+
+/* sezione social */
+
+.box_social img {
+    width: 100%;
+    margin: 10px 0;
+}
+/* /sezione social */
 
 /* /main */
