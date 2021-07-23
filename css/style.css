@@ -197,6 +197,10 @@ html, body {
 /* /sezione playplus */
 
 /* sezione play store */
+.play_store {
+    margin-bottom: 50px;
+}
+
 .box_store_img {
     padding: 10px;
 }
@@ -205,5 +209,25 @@ html, body {
     width: 100%;
 }
 /* /sezione play store */
+
+/* play now */
+.play_now {
+    margin-bottom: 50px;
+    background-color: #161c3b;
+    color: white;
+}
+
+.play_now_left {
+    padding: 20px;
+}
+
+.play_now_left img {
+    width: 80%;
+}
+
+.play_now_right img {
+    width: 100%;
+}
+/* /play now */
 
 /* /main */
