@@ -17,11 +17,13 @@
     background-color: black;
     justify-content: flex-end;
 }
+
 .sony_logo {
     padding-right: 8px;
     width: 80px;
     align-self: center;
 }
+
 .sony_logo img {
     width: 100%;
 }
@@ -73,5 +75,24 @@
 /* /header */
 
 /* main */
+/* sezione hero */
 
+/* hero top */
+    .hero_top {
+        height: 675px;
+        background-image: url(../img/jumbo-bg.png);
+        background-position: top center;
+        padding: 300px 0 20px 20px;
+    }
+
+    .hero_top_img {
+        width: 100%;
+    }
+
+/* /hero top */
+
+/* hero bottom */
+/* /hero bottom */
+
+/* /sezione hero */
 /* /main */
