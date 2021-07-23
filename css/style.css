@@ -131,6 +131,9 @@ html, body {
 /* /sezione play5 */
 
 /* sezione nuove uscite */
+.new_exit {
+    color: white;
+}
 /* sezione new exit top */
 .new_exit_top {
     height: 675px;
@@ -145,6 +148,10 @@ html, body {
 /* /sezione new exit top */
 
 /* sezione new exit bottom */
+.new_exit_bottom {
+    background-color: #1f1f1f;
+}
+
 .box_new_exit {
     padding: 10px;
 }
