@@ -179,6 +179,7 @@ html, body {
 
 /* sezione playplus */
 .play_plus {
+    margin-bottom: 50px;
     background-color: #bebcbb;
 }
 
@@ -194,5 +195,15 @@ html, body {
     width: 100%;
 }
 /* /sezione playplus */
+
+/* sezione play store */
+.box_store_img {
+    padding: 10px;
+}
+
+.box_store_img img {
+    width: 100%;
+}
+/* /sezione play store */
 
 /* /main */
