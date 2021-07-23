@@ -88,10 +88,19 @@
     .hero_top_img {
         width: 100%;
     }
-
 /* /hero top */
 
 /* hero bottom */
+.box_list_img {
+    margin-top: 10px;
+    padding: 5px;
+    /* background-color: blue; */
+}
+
+.box_list_img img {
+    width: 100%;
+    border-radius: 20px;
+}
 /* /hero bottom */
 
 /* /sezione hero */
