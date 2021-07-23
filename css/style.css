@@ -1,0 +1,74 @@
+/* flex */
+.flex {
+    display: flex;
+}
+
+.c_flex {
+    display: flex;
+    flex-direction: column;
+}
+/* /flex */
+
+/* header */
+/* header_top */
+.header_top {
+    height: 35px;
+    padding-right: 10px;
+    background-color: black;
+    justify-content: flex-end;
+}
+.sony_logo {
+    padding-right: 8px;
+    width: 80px;
+    align-self: center;
+}
+.sony_logo img {
+    width: 100%;
+}
+/* header_top */
+/* header_bottom */
+.logo_play {
+    margin-right: 15px;
+}
+
+.header_bottom .dropdown-toggle::after {
+    border: none;
+    content: url(../img/chevron-down-solid.svg);
+    width: 10px;
+    vertical-align: middle;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: 600;
+}
+
+.header_bottom_left li {
+    margin-right: 8px;
+}
+
+.header_bottom_right li {
+    margin-left: 8px;
+}
+
+.header_bottom_right {
+    justify-content: flex-end;
+}
+
+.header_bottom_right li:last-child {
+    line-height: 40px;
+}
+
+.header_bottom_right .btn {
+    color: white;
+    background-color: #363636;
+    border-radius: 20px;
+}
+
+.header_bottom_right .lens {
+    width: 25px;
+    vertical-align: middle;
+}
+/* /header_bottom */
+
+/* /header */
