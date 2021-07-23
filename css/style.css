@@ -9,6 +9,13 @@
 }
 /* /flex */
 
+/* overflow-x */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/* /overflow-x */
+
 /* header */
 /* header_top */
 .header_top {
@@ -76,7 +83,9 @@
 
 /* main */
 /* sezione hero */
-
+.hero {
+    margin-bottom: 80px;
+}
 /* hero top */
     .hero_top {
         height: 675px;
@@ -102,6 +111,24 @@
     border-radius: 20px;
 }
 /* /hero bottom */
-
 /* /sezione hero */
+
+/* sezione play5 */
+.play5_text {
+    align-self: center;
+    padding-left: 40px;
+}
+.play5_img {
+    justify-content: center;
+}
+.play5_img img {
+    width: 100%;
+}
+
+.item_play5 img {
+    width: 100%;
+}
+
+/* /sezione play5 */
+
 /* /main */
