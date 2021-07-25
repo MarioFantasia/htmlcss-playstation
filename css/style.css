@@ -239,11 +239,47 @@ html, body {
 /* /sezione play now */
 
 /* sezione social */
-
+.box_social {
+    padding: 30px;
+}
 .box_social img {
     width: 100%;
     margin: 10px 0;
 }
 /* /sezione social */
+
+/* footer */
+footer {
+    background-color: #00439c;
+    color: white;
+}
+
+.footer_play {
+    height: 273px;
+    justify-content: center;
+}
+
+.footer_play img {
+    width: 15%;
+    margin-bottom: 30px;
+}
+
+.footer_link {
+    margin-top: 70px;
+    list-style: none;
+}
+
+.link_list {
+    align-items: flex-start;
+    list-style: none;
+}
+
+.copyright img {
+    width: 18%;
+    margin-bottom: 10px;
+}
+
+/* /footer */
+
 
 /* /main */
