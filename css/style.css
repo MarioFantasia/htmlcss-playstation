@@ -133,8 +133,18 @@ html, body {
     width: 100%;
 }
 
+.item_play5 {
+    justify-content: center;
+}
+
 .item_play5 img {
     width: 100%;
+    margin: auto;
+}
+
+.item_play5 h6 {
+    justify-content: center;
+    text-align: center;
 }
 /* /sezione play5 */
 
