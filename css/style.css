@@ -16,17 +16,28 @@ html, body {
 }
 /* /overflow-x */
 
+/* common-space */
+section > div, footer {
+    padding: 0 30px;
+}
+/* /common-space */
+
+
 /* header */
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
 /* header_top */
 .header_top {
     height: 35px;
-    padding-right: 10px;
     background-color: black;
     justify-content: flex-end;
 }
 
 .sony_logo {
-    padding-right: 8px;
+    margin-right: 15px;
     width: 80px;
     align-self: center;
 }
@@ -36,6 +47,11 @@ html, body {
 }
 /* header_top */
 /* header_bottom */
+.header_bottom > div {
+    width: 100%;
+    padding: 0;
+}
+
 .logo_play {
     margin-right: 15px;
 }
@@ -84,34 +100,37 @@ html, body {
 /* main */
 /* sezione hero */
 .hero {
-    margin-bottom: 80px;
+    margin: 75px 0;
 }
 /* hero top */
     .hero_top {
         height: 675px;
+        padding-top: 250px;
+        margin-bottom: 30px;
         background-image: url(../img/jumbo-bg.png);
         background-position: top center;
-        padding: 300px 0 20px 20px;
     }
 
     .hero_top_img {
         width: 100%;
     }
 
+    .hero_top h2 {
+        margin: 35px 0;
+    }
+
     .hero_top button {
+        margin-top: 30px;
         border: none;
         border-radius: 20px;
         background-color: #cd3d0f;
         color: white;
-        padding: 5px 15px;
     }
 /* /hero top */
 
 /* hero bottom */
 .box_list_img {
-    margin-top: 10px;
-    padding: 5px;
-    /* background-color: blue; */
+    margin-bottom: 25px;
 }
 
 .box_list_img img {
@@ -122,9 +141,20 @@ html, body {
 /* /sezione hero */
 
 /* sezione play5 */
+.play5 h2 {
+    margin-bottom: 30px;
+}
+
+.play5 .container .row:first-child {
+    margin-bottom: 60px;
+}
+
 .play5_text {
     align-self: center;
-    padding-left: 40px;
+}
+
+.play5_text button {
+    margin-top: 30px;
 }
 .play5_img {
     justify-content: center;
@@ -139,7 +169,6 @@ html, body {
 
 .item_play5 img {
     width: 100%;
-    margin: auto;
 }
 
 .item_play5 h6 {
@@ -150,60 +179,91 @@ html, body {
 
 /* sezione nuove uscite */
 .new_exit {
+    margin-top: 40px;
     color: white;
 }
 /* sezione new exit top */
 .new_exit_top {
-    height: 956px;
+    height: 700px;
+    padding-top: 52px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: top center;
     background-size: cover;
-    padding: 100px 0 20px 20px;
 }
 
 .new_exit_top_img {
     width: 100%;
 }
+
+.new_exit_top h2 {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.new_exit_top h2, .new_exit_top p{
+    margin-bottom: 30px;
+}
 /* /sezione new exit top */
 
 /* sezione new exit bottom */
 .new_exit_bottom {
+    padding-top: 30px;
     background-color: #1f1f1f;
 }
 
+.new_exit_bottom_info h3 {
+    margin-bottom: 25px;
+}
+
+.new_exit_bottom_info h5 {
+    margin-bottom: 20px;
+} 
+
 .box_new_exit {
-    padding: 10px;
+    margin-bottom: 50px;
 }
 
 .box_new_exit_img img {
+    border-radius: 25px;
     width: 100%;
 }
-
 /* /sezione new exit bottom */
 /* /sezione nuove uscite */
 
 /* sezione play4 */
 .play4 {
-    margin: 40px 0;
+    padding-top: 70px;
 }
 
-.box_play4 {
-    padding: 10px;
+.play4 p {
+    margin: 35px 0 60px 0;
 }
 
 .box_play4 img {
     width: 100%;
 }
+
+.box_play4 p {
+    margin: 20px 0;
+}
+
+.box_play4 button {
+    margin-bottom: 60px;
+}
+
 /* /sezione play4 */
 
 /* sezione playplus */
 .play_plus {
-    margin-bottom: 50px;
     background-color: #bebcbb;
 }
 
 .play_plus_left {
-    padding: 20px;
+    padding: 20px 0;
+}
+
+.play_plus_left p {
+    margin: 25px 0;
 }
 
 .play_plus_left img {
@@ -217,11 +277,15 @@ html, body {
 
 /* sezione play store */
 .play_store {
-    margin-bottom: 50px;
+    padding: 20px 0;
+}
+
+.play_store p {
+    margin: 25px 0 61px 0;
 }
 
 .box_store_img {
-    padding: 10px;
+    margin-bottom: 50px;
 }
 
 .box_store_img img {
@@ -231,13 +295,16 @@ html, body {
 
 /* sezione play now */
 .play_now {
-    margin-bottom: 50px;
     background-color: #161c3b;
     color: white;
 }
 
 .play_now_left {
-    padding: 20px;
+    padding: 20px 0;
+}
+
+.play_now_left p {
+    margin: 25px 0;
 }
 
 .play_now_left img {
@@ -250,33 +317,44 @@ html, body {
 /* /sezione play now */
 
 /* sezione social */
-.box_social {
-    padding: 30px;
-}
-.box_social img {
-    width: 100%;
-    margin: 10px 0;
-}
+    .social {
+        padding: 70px 0 90px 0;
+    }
+
+    .row_social {
+        justify-content: center;
+    }
+
+    .logo_social {
+        width: 100%;
+        margin: 70px 0 25px 0;
+    }
+
+
+    .logo_social img {
+        width: 100%;
+    }
+
 /* /sezione social */
 
 /* footer */
 footer {
+    padding-top: 70px;
     background-color: #00439c;
     color: white;
 }
 
 .footer_play {
-    height: 273px;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .footer_play img {
-    width: 15%;
+    width: 20%;
     margin-bottom: 30px;
 }
 
 .footer_link {
-    margin-top: 70px;
     list-style: none;
 }
 
@@ -285,11 +363,13 @@ footer {
     list-style: none;
 }
 
-.copyright img {
-    width: 18%;
-    margin-bottom: 10px;
+.copyright {
+    margin-top: 30px;
 }
 
+.copyright img {
+    width: 15%;
+}
 /* /footer */
 
 
