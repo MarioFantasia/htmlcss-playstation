@@ -407,6 +407,11 @@ h2, h3, h4 {
 p {
     font-size: 15px;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
 /* /font */
 
 /* button */
