@@ -14,6 +14,7 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
     font-family: Arial, sans-serif;
+    color: #1f1f1f;
 }
 /* /overflow-x */
 
@@ -114,13 +115,7 @@ header {
         margin: 35px 0;
     }
 
-    .hero_top button {
-        margin-top: 30px;
-        border: none;
-        border-radius: 20px;
-        background-color: #cd3d0f;
-        color: white;
-    }
+
 /* /hero top */
 
 /* hero bottom */
@@ -155,7 +150,7 @@ header {
     justify-content: center;
 }
 .play5_img img {
-    width: 100%;
+    width: 83%;
 }
 
 .item_play5 {
@@ -220,6 +215,7 @@ header {
 .box_new_exit_img img {
     border-radius: 25px;
     width: 100%;
+    margin-bottom: 8px;
 }
 /* /sezione new exit bottom */
 /* /sezione nuove uscite */
@@ -317,16 +313,18 @@ header {
 
     .row_social {
         justify-content: center;
+        margin-top: 70px;
     }
 
     .logo_social {
         width: 100%;
-        margin: 70px 0 25px 0;
+        margin-bottom: 15px;
     }
 
 
     .logo_social img {
         width: 100%;
+
     }
 
 /* /sezione social */
@@ -365,6 +363,10 @@ footer {
     width: 15%;
 }
 
+footer i {
+    margin-right: 8px;
+}
+
 footer span {
     text-decoration-line: underline;
 }
@@ -373,17 +375,17 @@ footer span {
 
 /* font */
 .navbar-light .navbar-nav .nav-link {
-    color: black;
-    font-weight: 600;
+    color: #1f1f1f;
+    font-size: 15px;
 }
 
 .play5 p, .play4 p, .play_store p {
-    color: grey;
+    color: #727272;
 }
 
 .play5_blue {
     font-size: 15px;
-    color: blue;
+    color: #0072ce;
 }
 
 footer h6 {
@@ -407,4 +409,28 @@ p {
 }
 /* /font */
 
+/* button */
+.btn {
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+}
 
+.btn.b_plus {
+    color: #2d64e6;
+    background-color: #d9dadc;
+}
+
+.btn.b_now {
+    color: black;
+    background-color: #f5f5f5;
+}
+
+.btn.b_add {
+    background-color: #cd3d0f;
+}
+
+.btn.b_play {
+    background-color: #2d64e6;
+}
+/* /button */
