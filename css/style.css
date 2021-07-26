@@ -9,10 +9,11 @@
 }
 /* /flex */
 
-/* overflow-x */
+/* overflow-x, font-page */
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    font-family: Arial, sans-serif;
 }
 /* /overflow-x */
 
@@ -21,7 +22,6 @@ section > div, footer {
     padding: 0 30px;
 }
 /* /common-space */
-
 
 /* header */
 header {
@@ -63,11 +63,6 @@ header {
     vertical-align: middle;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: black;
-    font-weight: 600;
-}
-
 .header_bottom_left li {
     margin-right: 8px;
 }
@@ -104,9 +99,9 @@ header {
 }
 /* hero top */
     .hero_top {
-        height: 675px;
-        padding-top: 250px;
-        margin-bottom: 30px;
+        height: 620px;
+        padding-top: 280px;
+        margin-bottom: 35px;
         background-image: url(../img/jumbo-bg.png);
         background-position: top center;
     }
@@ -184,7 +179,7 @@ header {
 }
 /* sezione new exit top */
 .new_exit_top {
-    height: 700px;
+    height: 620px;
     padding-top: 52px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: top center;
@@ -197,7 +192,6 @@ header {
 
 .new_exit_top h2 {
     margin-top: 30px;
-    font-size: 40px;
 }
 
 .new_exit_top h2, .new_exit_top p{
@@ -370,7 +364,47 @@ footer {
 .copyright img {
     width: 15%;
 }
+
+footer span {
+    text-decoration-line: underline;
+}
 /* /footer */
-
-
 /* /main */
+
+/* font */
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: 600;
+}
+
+.play5 p, .play4 p, .play_store p {
+    color: grey;
+}
+
+.play5_blue {
+    font-size: 15px;
+    color: blue;
+}
+
+footer h6 {
+    font-size: 14px;
+}
+
+footer li {
+    font-size: 13px;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+h2, h3, h4 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 15px;
+}
+/* /font */
+
+
