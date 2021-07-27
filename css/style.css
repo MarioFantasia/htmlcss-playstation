@@ -16,7 +16,7 @@ html, body {
     font-family: Arial, sans-serif;
     color: #1f1f1f;
 }
-/* /overflow-x */
+/* /overflow-x, font-page */
 
 /* common-space */
 section > div, footer {
@@ -29,7 +29,9 @@ header {
     width: 100%;
     height: 100px;
     position: fixed;
+    z-index: 5;
 }
+
 /* header_top */
 .header_top {
     height: 35px;
@@ -47,6 +49,7 @@ header {
     width: 100%;
 }
 /* header_top */
+
 /* header_bottom */
 .header_bottom > div {
     width: 100%;
@@ -98,6 +101,7 @@ header {
 .hero {
     margin: 75px 0;
 }
+
 /* hero top */
     .hero_top {
         height: 620px;
@@ -106,7 +110,6 @@ header {
         background-image: url(../img/jumbo-bg.png);
         background-position: top center;
     }
-    
 
     .hero_top_img {
         width: 100%;
@@ -115,8 +118,6 @@ header {
     .hero_top h2 {
         margin: 35px 0;
     }
-
-
 /* /hero top */
 
 /* hero bottom */
@@ -138,6 +139,7 @@ header {
 .play5 {
     padding-bottom: 10px;
 }
+
 .play5 h2 {
     margin-bottom: 30px;
 }
@@ -153,11 +155,13 @@ header {
 .play5_text .box_button {
     margin-top: 30px;
 }
+
 .play5_img {
     justify-content: center;
 }
+
 .play5_img img {
-    width: 83%;
+    width: 70%;
 }
 
 .item_play5 {
@@ -179,6 +183,7 @@ header {
     margin-top: 40px;
     color: white;
 }
+
 /* sezione new exit top */
 .new_exit_top {
     height: 620px;
@@ -247,7 +252,6 @@ header {
 .box_play4 .box_button {
     margin-bottom: 60px;
 }
-
 /* /sezione play4 */
 
 /* sezione playplus */
@@ -316,24 +320,23 @@ header {
 /* sezione social */
     .social {
         padding: 70px 0 90px 0;
-    }
+}
 
     .row_social {
         justify-content: center;
         margin-top: 70px;
-    }
+}
 
     .logo_social {
         width: 100%;
         margin-bottom: 15px;
-    }
+}
 
 
     .logo_social img {
         width: 100%;
 
-    }
-
+}
 /* /sezione social */
 /* /main */
 
@@ -442,11 +445,9 @@ a {
 background-color: #363636;
 }
 
-
 .box_button_add {
     background-color: #cd3d0f;
 }
-
 
 .box_button_play {
     background-color: #2d64e6;
@@ -497,9 +498,7 @@ background-color: #363636;
     transform: translateY(-8px);
     transition-duration: 1s;
 }
-
 /* /hover-hero */
-
 
 /* hover-play5 */
 .item_play5:hover img {
